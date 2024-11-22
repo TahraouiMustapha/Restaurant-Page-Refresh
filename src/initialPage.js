@@ -4,6 +4,7 @@ const initialPageLoad = () => {
 
     const headline = document.createElement('h1');
     headline.textContent = 'Welcome in our Restaurant';
+    headline.classList.add('headline');
 
     const text = document.createElement('p');
     text.textContent = 'some text about how wonderful the restaurant is';

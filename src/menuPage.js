@@ -4,6 +4,7 @@ const menuPageLoad = () => {
 
     const headline = document.createElement('h1');
     headline.textContent = 'Menu';
+    headline.classList.add('headline');
 
     const text = document.createElement('p');
     text.textContent = 'the maine plate';
